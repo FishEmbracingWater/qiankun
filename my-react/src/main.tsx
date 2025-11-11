@@ -35,6 +35,6 @@ renderWithQiankun({
 
 if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
   render({
-    container: document.getElementById("root")!,
+    container: document as unknown as HTMLElement,
   });
 }
