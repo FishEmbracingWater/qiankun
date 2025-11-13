@@ -29,6 +29,7 @@ renderWithQiankun({
   bootstrap() {},
   unmount() {
     root?.unmount();
+    root = null;
   },
   update() {},
 });
